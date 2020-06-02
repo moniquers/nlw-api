@@ -3,7 +3,13 @@ import express from 'express';
 const app = express();
 
 app.get('/Users', (request, response) => {
-    response.send("Hello World");
+
+    response.json(
+        [
+            "Monique",
+            "Evandro"
+        ]
+    )
 });
 
 app.listen(3333);
