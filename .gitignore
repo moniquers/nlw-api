@@ -116,4 +116,4 @@ dist
 .pnp.*
 
 uploads/
-database/database.sqlite
+src/database/database.sqlite
