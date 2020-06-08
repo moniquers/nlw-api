@@ -117,3 +117,5 @@ dist
 
 uploads/
 src/database/database.sqlite
+
+build/
